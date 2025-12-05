@@ -1,0 +1,47 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Кеши, логи
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.tmp
+
+# Тестовые и временные файлы
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# === Django ===
+# База данных sqlite (если используешь)
+db.sqlite3
+
+
+# === IDE / Editor ===
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# === OS files ===
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac OS
+.DS_Store
+
+# Linux temporary files
+*~
